@@ -2,7 +2,7 @@ FROM alpine:latest
 EXPOSE 22
 
 # install packages
-RUN apk add bash tcsh zsh openssh
+RUN apk add bash tcsh zsh openssh rsync
 
 # add non-root user
 RUN ssh-keygen -A&&\
