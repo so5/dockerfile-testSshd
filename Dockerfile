@@ -15,4 +15,4 @@ RUN ssh-keygen -t rsa -b 1024 -f ${HOME}/.ssh/id_rsa &&\
     cp ${HOME}/.ssh/id_rsa.pub ${HOME}/.ssh/authorized_keys
 
 USER root
-CMD ["/usr/sbin/sshd", "-D"]
+CMD ["/usr/sbin/sshd", "-e", "-D"]

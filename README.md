@@ -13,4 +13,4 @@ publickey: /home/testuser/.ssh/id_rsa.pub
 
 
 
-publickey is already registered at authorized_keys 
+publickey is already registered to authorized_keys
